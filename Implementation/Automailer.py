@@ -68,3 +68,13 @@ def maximum():
     frames = [maxpresurvey, maxpretest, maxpostsurvey, maxpostest]
 
     return (pd.concat(frames))
+
+def minimum():
+    minpresurvey = pre_survey.nsmallest(3, ["pre_survey_total"])
+    minpossurvey = post_survey.nsmallest(3, ["post_survey_total"])
+    minpretest = pre_test.nsmallest(3, ["pre_test_total"])
+    minpostest = post_test.nsmallest(3, ["post_test_total"])
+
+    frames = [minpresurvey, minpretest, minpossurvey, minpostest]
+
+    return (pd.concat(frames))
