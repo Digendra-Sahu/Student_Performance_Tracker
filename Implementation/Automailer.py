@@ -125,3 +125,15 @@ def send_data_to_teacher():
     send_mail(output1, output2)
 
     return "Mail sent successfully."
+
+def send_mail_student():
+    '''To send mails'''
+    list1 = ['ashish.pareek@ltts.com', 'lalit.bhardwaj@ltts.com', 'ashish.nayak@ltts.com', 'prashantsudhir.bagal@ltts.com', 'aakarsh.mehta@ltts.com',
+             'yash.jhajharia@ltts.com', 'manzar.hussain@ltts.com', 'digendrakumar.sahu@ltts.com', 'ankitkumar.yadav@ltts.com', 'manu.nadar@ltts.com']
+    psnumber = get_PS()
+    for i in range(0, len(pre_survey.columns)):
+        student_radar_graph(psnumber[i])
+        image1 = f'Consolidated_{psnumber[i]}.png'
+        sender_email = 'learningcorporate7@gmail.com'
+        sender_ePass = '99003708'
+        receiver_email = list1[i]
