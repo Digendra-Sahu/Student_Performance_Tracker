@@ -9,6 +9,7 @@ first_ps = list(my_data.keys())[0]
 topper = top_performer()
 bottom = bottom_performer()
 
+
 def student_radar_graph(ps_no):
     ''' This function will create a radar graph for students '''
     new_list = my_data[ps_no]
@@ -158,14 +159,15 @@ def student_radar_graph(ps_no):
 
             plt.savefig(f'Posttest_{ps_no}.png')
             img4 = Image.open(f'Posttest_{ps_no}.png')
+    ''' After Creating separate graphs for students we will create a consilidated graph '''
     f, axarr = plt.subplots(2, 2)
     axarr[0, 0].imshow(img1)
     axarr[0, 1].imshow(img2)
     axarr[1, 0].imshow(img3)
     axarr[1, 1].imshow(img4)
     plt.savefig(f'Consolidated_{ps_no}.png', dpi=1000)
-    
-    
+
+
 def faculty_radar_graph():
     """Function for generating a radar graph to faculties"""
     new_list = my_data[first_ps]
@@ -214,7 +216,7 @@ def faculty_radar_graph():
 
             categories = ['Functions', 'Abstraction', 'Encapsulation',
                           'Inheritance', 'Polymorphism', "Unit-Testing", ""]
-            
+
             pretestavg = np.concatenate((pretestavg, [pretestavg[0]]))
             pretesttopper = np.concatenate((pretesttopper, [pretesttopper[0]]))
             pretestbottom = np.concatenate((pretestbottom, [pretestbottom[0]]))
@@ -246,7 +248,7 @@ def faculty_radar_graph():
             postsurveybottom = bottom[i]
 
             categories = ['Functions', 'Abstraction', 'Encapsulation',
-                          'Inheritance', 'Polymorphism', "Unit-Testing", ""]            
+                          'Inheritance', 'Polymorphism', "Unit-Testing", ""]
 
             postsurveyavg = np.concatenate((postsurveyavg, [postsurveyavg[0]]))
             postsurveytopper = np.concatenate(
@@ -273,7 +275,7 @@ def faculty_radar_graph():
             print(plt)
             plt.savefig(f'Postsurvey_Performance.png')
             img3 = Image.open('Postsurvey_Performance.png')
-            
+
         if(i == 3):
 
             posttestlist = new_list[i]
@@ -309,8 +311,8 @@ def faculty_radar_graph():
             print(plt)
             plt.savefig(f'Posttest_Performance.png')
             img4 = Image.open('Posttest_Performance.png')
-    
-    
+
+    ''' After Creating separate graphs for class we will create a consilidated graph '''
     f, axarr = plt.subplots(2, 2)
     axarr[0, 0].imshow(img1)
     axarr[0, 1].imshow(img2)
