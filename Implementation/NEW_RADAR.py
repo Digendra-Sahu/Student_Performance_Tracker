@@ -247,3 +247,29 @@ def faculty_radar_graph():
 
             categories = ['Functions', 'Abstraction', 'Encapsulation',
                           'Inheritance', 'Polymorphism', "Unit-Testing", ""]            
+
+            postsurveyavg = np.concatenate((postsurveyavg, [postsurveyavg[0]]))
+            postsurveytopper = np.concatenate(
+                (postsurveytopper, [postsurveytopper[0]]))
+            postsurveybottom = np.concatenate(
+                (postsurveybottom, [postsurveybottom[0]]))
+
+            label_placement = np.linspace(
+                start=0, stop=2*np.pi, num=len(postsurveyavg))
+
+            plt.figure(figsize=(6, 6))
+            plt.subplot(polar=True)
+
+            plt.plot(label_placement, postsurveyavg)
+            plt.plot(label_placement, postsurveytopper)
+            plt.plot(label_placement, postsurveybottom)
+
+            lines, labels = plt.thetagrids(
+                np.degrees(label_placement), labels=categories)
+            plt.title('Post Survey Performance',
+                      y=1.1, fontdict={'fontsize': 14})
+            plt.legend(labels=['Average',
+                               'Topper', 'Bottom'], loc=(0.95, 0.8))
+            print(plt)
+            plt.savefig(f'Postsurvey_Performance.png')
+            img3 = Image.open('Postsurvey_Performance.png')            
