@@ -205,3 +205,12 @@ def faculty_radar_graph():
             print(plt)
             plt.savefig(f'Presurvey_Performance.png')
             img1 = Image.open('Presurvey_Performance.png')
+        if(i == 1):
+
+            pretestlist = new_list[i]
+            pretestavg = pretestlist[1]
+            pretesttopper = topper[i]
+            pretestbottom = bottom[i]
+
+            categories = ['Functions', 'Abstraction', 'Encapsulation',
+                          'Inheritance', 'Polymorphism', "Unit-Testing", ""]
