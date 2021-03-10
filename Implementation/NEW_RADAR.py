@@ -159,3 +159,8 @@ def student_radar_graph(ps_no):
             plt.savefig(f'Posttest_{ps_no}.png')
             img4 = Image.open(f'Posttest_{ps_no}.png')
     f, axarr = plt.subplots(2, 2)
+    axarr[0, 0].imshow(img1)
+    axarr[0, 1].imshow(img2)
+    axarr[1, 0].imshow(img3)
+    axarr[1, 1].imshow(img4)
+    plt.savefig(f'Consolidated_{ps_no}.png', dpi=1000)
