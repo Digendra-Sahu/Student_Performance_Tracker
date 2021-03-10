@@ -30,7 +30,7 @@ for i in range(0, len(pre_survey.columns)):
     sum3 = 0
     sum4 = 0
 
-    pre_survey_list1 = pre_test.iloc[i, 4:1en(df.columns)0]
+    pre_survey_list1 = pre_test.iloc[i, 4:10]
     sum1 = sum(pre_survey_list1)
     pre_survey_list2.append(sum1)
 
