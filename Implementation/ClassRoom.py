@@ -76,3 +76,34 @@ def sum_of_row():
     res.append(post_survey_row_sum)
     res.append(post_test_row_sum)
     return res
+
+
+#Top five performer of class
+def top_five(k):
+    top5 = []
+    sum_rows = sum_of_row()
+    sum_rows = sum_rows[k]
+    sum_rows.sort()
+    sum_rows.reverse()
+    j = 0
+    for i in range(len(sum_rows)):
+        j = sum_rows[i]
+        top5.append(j)
+        if i == 4:
+            break
+    return top5
+
+
+# Bottom five performer of class
+def bottom_five(k):
+    bottom5 = []
+    sum_rows = sum_of_row()
+    sum_rows = sum_rows[k]
+    sum_rows.sort()
+    j = 0
+    for i in range(len(sum_rows)):
+        j = sum_rows[i]
+        bottom5.append(j)
+        if i == 4:
+            break
+    return bottom5
