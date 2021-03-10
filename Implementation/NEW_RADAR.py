@@ -164,3 +164,28 @@ def student_radar_graph(ps_no):
     axarr[1, 0].imshow(img3)
     axarr[1, 1].imshow(img4)
     plt.savefig(f'Consolidated_{ps_no}.png', dpi=1000)
+    
+    
+def faculty_radar_graph():
+    """Function for generating a radar graph to faculties"""
+    new_list = my_data[first_ps]
+    for i in range(0, 4):
+        if(i == 0):
+
+            presurveylist = new_list[i]
+            presurveyavg = presurveylist[1]
+            presurveytopper = topper[i]
+
+            presurveybottom = bottom[i]
+
+            categories = ['Functions', 'Abstraction', 'Encapsulation',
+                          'Inheritance', 'Polymorphism', "Unit-Testing", ""]
+
+            presurveyavg = np.concatenate((presurveyavg, [presurveyavg[0]]))
+            presurveytopper = np.concatenate(
+                (presurveytopper, [presurveytopper[0]]))
+            presurveybottom = np.concatenate(
+                (presurveybottom, [presurveybottom[0]]))
+
+            label_placement = np.linspace(
+                start=0, stop=2*np.pi, num=len(presurveyavg))
