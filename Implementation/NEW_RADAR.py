@@ -214,3 +214,36 @@ def faculty_radar_graph():
 
             categories = ['Functions', 'Abstraction', 'Encapsulation',
                           'Inheritance', 'Polymorphism', "Unit-Testing", ""]
+            
+            pretestavg = np.concatenate((pretestavg, [pretestavg[0]]))
+            pretesttopper = np.concatenate((pretesttopper, [pretesttopper[0]]))
+            pretestbottom = np.concatenate((pretestbottom, [pretestbottom[0]]))
+
+            label_placement = np.linspace(
+                start=0, stop=2*np.pi, num=len(pretestavg))
+
+            plt.figure(figsize=(6, 6))
+            plt.subplot(polar=True)
+
+            plt.plot(label_placement, pretestavg)
+            plt.plot(label_placement, pretesttopper)
+            plt.plot(label_placement, pretestbottom)
+
+            lines, labels = plt.thetagrids(
+                np.degrees(label_placement), labels=categories)
+            plt.title('Pre test Performance',
+                      y=1.1, fontdict={'fontsize': 14})
+            plt.legend(labels=['Average',
+                               'Topper', 'Bottom'], loc=(0.95, 0.8))
+            print(plt)
+            plt.savefig(f'Pretest_Performance.png')
+            img2 = Image.open('Pretest_Performance.png')
+        if(i == 2):
+
+            postsurveylist = new_list[i]
+            postsurveyavg = postsurveylist[1]
+            postsurveytopper = topper[i]
+            postsurveybottom = bottom[i]
+
+            categories = ['Functions', 'Abstraction', 'Encapsulation',
+                          'Inheritance', 'Polymorphism', "Unit-Testing", ""]            
