@@ -308,4 +308,12 @@ def faculty_radar_graph():
                                'Topper', 'Bottom'], loc=(0.95, 0.8))
             print(plt)
             plt.savefig(f'Posttest_Performance.png')
-            img4 = Image.open('Posttest_Performance.png')            
+            img4 = Image.open('Posttest_Performance.png')
+    
+    
+    f, axarr = plt.subplots(2, 2)
+    axarr[0, 0].imshow(img1)
+    axarr[0, 1].imshow(img2)
+    axarr[1, 0].imshow(img3)
+    axarr[1, 1].imshow(img4)
+    plt.savefig('Consolidated_class.png', dpi=1000)
