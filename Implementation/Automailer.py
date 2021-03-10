@@ -152,3 +152,10 @@ def send_mail_student():
         part.add_header('Content-Disposition',
                         "attachment; filename= %s" % image1)
         message.attach(part)
+          servers = SMTP('smtp.gmail.com', 587)
+        servers.starttls()
+        servers.login(sender_email, sender_ePass)
+        text = message.as_string()
+        servers.sendmail(sender_email, receiver_email, text)
+        servers.quit()
+        print('Mail Sent')
