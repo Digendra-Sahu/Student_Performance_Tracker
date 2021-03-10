@@ -15,7 +15,7 @@ def sel1():
     btn2.pack(side = 'top',ipadx =5 , ipady =5 , padx =5 , pady =5)    
     label.config(text = selection)
  
-    
+try:    
     root = Tk()
     root.geometry('300x300') 
     root.title('Performance Tracker')
@@ -34,3 +34,16 @@ def sel1():
     label = Label(root)
     label.pack()
     root.mainloop()
+
+except IOError:
+   print("Cant read file ")
+
+except UnboundLocalError:
+    print("Unbound Local Error")  
+
+except SyntaxError:
+    print("Syntax error")  
+
+except TypeError:
+    print("TypeError")    
+    
