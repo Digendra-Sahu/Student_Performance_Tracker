@@ -33,6 +33,42 @@ def data_for_graph():
         consolidated_pre_survey.append(module_average[0])
         consolidated_pre_survey.append(max_module[0])
         consolidated_pre_survey.append(min_module[0])
+ 
+def top_performer():
+    max_li_pre_test = []
+    max_li_post_test = []
+    max_li_pre_survey = []
+    max_li_post_survey = []
+    max_li = []
+    for i in range(1,7):
+        max_li_pre_test.append(max(pre_test[f'LO_{i}']))
+        max_li_post_survey.append(max(post_survey[f'LO_{i}']))
+        max_li_post_test.append(max(post_test[f'LO_{i}']))
+        max_li_pre_survey.append(max(pre_survey[f'LO_{i}']))
+    
+    max_li.append(max_li_pre_survey)
+    max_li.append(max_li_pre_test)
+    max_li.append(max_li_post_survey)
+    max_li.append(max_li_post_test)
+    return max_li
+
+def bottom_performer():
+    min_li_pre_test = []
+    min_li_post_test = []
+    min_li_pre_survey = []
+    min_li_post_survey = []
+    min_li = []
+    for i in range(1,7):
+        min_li_pre_test.append(min(pre_test[f'LO_{i}']))
+        min_li_post_survey.append(min(post_survey[f'LO_{i}']))
+        min_li_post_test.append(min(post_test[f'LO_{i}']))
+        min_li_pre_survey.append(min(pre_survey[f'LO_{i}']))
+    
+    min_li.append(min_li_pre_survey)
+    min_li.append(min_li_pre_test)
+    min_li.append(min_li_post_survey)
+    min_li.append(min_li_post_test)
+    return min_li
         
         consolidated_pre_test.append(pre_test_LO)
         consolidated_pre_test.append(module_average[1])
