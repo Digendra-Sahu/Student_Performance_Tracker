@@ -272,4 +272,40 @@ def faculty_radar_graph():
                                'Topper', 'Bottom'], loc=(0.95, 0.8))
             print(plt)
             plt.savefig(f'Postsurvey_Performance.png')
-            img3 = Image.open('Postsurvey_Performance.png')            
+            img3 = Image.open('Postsurvey_Performance.png')
+            
+        if(i == 3):
+
+            posttestlist = new_list[i]
+            posttestavg = posttestlist[1]
+            posttesttopper = topper[i]
+            posttestbottom = bottom[i]
+
+            categories = ['Functions', 'Abstraction', 'Encapsulation',
+                          'Inheritance', 'Polymorphism', "Unit-Testing", ""]
+
+            posttestavg = np.concatenate((posttestavg, [posttestavg[0]]))
+            posttesttopper = np.concatenate(
+                (posttesttopper, [posttesttopper[0]]))
+            posttestbottom = np.concatenate(
+                (posttestbottom, [posttestbottom[0]]))
+
+            label_placement = np.linspace(
+                start=0, stop=2*np.pi, num=len(posttestavg))
+
+            plt.figure(figsize=(6, 6))
+            plt.subplot(polar=True)
+
+            plt.plot(label_placement, posttestavg)
+            plt.plot(label_placement, posttesttopper)
+            plt.plot(label_placement, posttestbottom)
+
+            lines, labels = plt.thetagrids(
+                np.degrees(label_placement), labels=categories)
+            plt.title('Post test Performance',
+                      y=1.1, fontdict={'fontsize': 14})
+            plt.legend(labels=['Average',
+                               'Topper', 'Bottom'], loc=(0.95, 0.8))
+            print(plt)
+            plt.savefig(f'Posttest_Performance.png')
+            img4 = Image.open('Posttest_Performance.png')            
