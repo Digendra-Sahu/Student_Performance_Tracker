@@ -163,13 +163,13 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 
 #### **2. Student**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.011.png)			
+![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_055.png)			
 
 
 
 #### **3. Class Room**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.012.png)				
+![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_066.png)				
 
 
 
