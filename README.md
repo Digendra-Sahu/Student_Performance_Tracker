@@ -11,6 +11,9 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
+`5_Test_Cases`     | Set of test data,expected input,expected results
+`6_Workflow`       | Sequence of tasks that processes a set of data
+
 
 ## Contributors List and Summary
 
