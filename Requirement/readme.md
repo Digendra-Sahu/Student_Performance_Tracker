@@ -320,7 +320,7 @@ Planning
 
 **TEST PLAN**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.013.png)
+![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/Capture.PNG)
 
 
 
