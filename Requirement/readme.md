@@ -74,7 +74,12 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 
 **SWOT:**
 
-![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/SWOT.jpeg)
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.005.jpeg)
+
+
+
+
+
 
 
 **4 W's and 1 H-**
@@ -182,7 +187,7 @@ Planning
 
 **1. Faculty**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.010.png)**		
+![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_044.png)**		
 
 
 
