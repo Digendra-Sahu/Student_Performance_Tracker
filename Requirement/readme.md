@@ -244,11 +244,7 @@ Planning
 **2. Low level -**
 
 
-
-
-
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.008.png)**		
-
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.009.png)
 
 
 
@@ -257,10 +253,16 @@ Planning
 
 
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.009.png)**2 . Behavioral :-**
+
+
+
+
+
+**2 . Behavioral :-**
 
 **a. High level :-**
 
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.008.png)**
 
 **			
 
