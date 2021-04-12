@@ -8,7 +8,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 
 
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.003.jpeg)yam./
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.003.jpeg)
 ![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.004.png)
 
 |**Ver. Rel. No.**|**Release Date**|**Prepared. By** |**Reviewed By** |**To be approved By** |**Remarks/Revision Details**|
@@ -20,8 +20,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 |5|04/03/2021|YASH JHAJHARIA/99003616|||<p></p><p></p><p></p>|
 |6|04/03/2021|OMPRAKASH HAROD/99003713||||
 |7|04/03/2021|LALIT BHARDWAJ/99003706||||
-|||||||
-|||||||
+
 
 
 
