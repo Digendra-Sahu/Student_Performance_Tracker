@@ -25,9 +25,9 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 # **Table of Contents**
 ![]()
 
-**REQUIREMENT AND PLAN**
+## **REQUIREMENT AND PLAN**
 
-**Need:**
+#### **Need:**
 
 **Introduction :**
 
@@ -35,16 +35,16 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 - It will even provide the comparison between all modules and average of the whole class. 
 - Main objective of the project is to keep track of the student's average and individual performance, so that it will be easy to understand which module needs the most focus. 
 
-**Feasibility Analysis**
+# **Feasibility Analysis**
 
-**Market feasibility -:**
+## **Market feasibility -:**
 
 - Performance tracker gives simple and user-friendly view of performance of individual trainee. 
 - Trainees can improve performance in Training by using Performance tracker. 
 - It can be used by any trainee who wants to keep track of there performance. 
 - Spider chart will help students as well as faculty in order to understand the overall growth and performance of the class. 
 
-**Technical feasibility -:**
+## **Technical feasibility -:**
 
 - Making use of spider chart, which is effective chart for analysis the data of the student in order to calculate there individual and group performance. 
 - Effective analysis of student growth by calculating Mean, Average and many more functionalities and there combinations. 
@@ -52,9 +52,8 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 - Will provide strength and weakness of each and every individual so that learning can be personalized. 
 - Will provide 5 bottom and top performer. 
 
-**MY PRODUCT**
-
-**High level requirement**
+# **Requirements**
+## **High level requirement**
 
 - Performance tracker will track score of 2 survey results and 2 test results. 
 - Will be able to work with as many modules as we want. 
@@ -63,7 +62,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 - Will give output in form of tables and spider graph for faculty.
 - UI will be user friendly.
 
-**Low level requirement**
+## **Low level requirement**
 
 - Scores will be taken from pre survey, post survey, pre test and post test. 
 - Each Individual will have own data of pre survey, post survey, pre test, post test in the form of spider chart. 
@@ -72,38 +71,38 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 - Performance of the students will be divided into three parts, Top performers will get green flag student who failed will get red flags and average performance student will be marked as yellow flag. 
 - Automated mail will be send to each and every faculty and students for continuous update regarding individual and class performance. 
 
-**SWOT:**
+# **SWOT:**
 
 ![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/SWOT.jpeg)
 
 
-**4 W's and 1 H-**
+# **4 W's and 1H-**
 
-**What -**
+## **What :-**
 
 - Performance tracker is the measurement of student achievement across various academic modules.
 - Teachers and education officials typically measure achievement using classroom performance, graduation rates and results from standardized tests.
 
-**Why-**
+## **Why :-**
 
 - Continuous tracking of students' progress data helps teachers to make sure that the process of education works according to expectations with no delays or gaps.
 - Having students see their growth and review how it relates to bigger goals increases student investment.
 
-**When-**
+## **When :-**
 
 - Monitoring of progress should occur after every weekly assessments for monitoring student's progress. 
 
-**Where-** **-**
+## **Where :-**
 
 - Continuous tracking of students' progress data can be shown to both faculties as well as the students. But the faculty can access the data of complete class while the student can access only his/her data. 
 
-**How-**
+## **How:-**
 
 - The process also helps students internalize knowledge, turning what and how they learn into a well of resources they can use in the future. When students assess their own work, when they identify their own strengths and weaknesses, the likelihood that they will do better next time is greater. 
 
-**Requirements (HL , LL) –**
+# **Requirements (High Level , Low Level)**
 
-**High Level Requirements:**
+## **High Level Requirements:**
 
 |**REQ\_ID**|**REQUIREMENTS**|**REQUIREMENT DESCRIPTION**|
 | :-: | :-: | :-: |
@@ -113,7 +112,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 |**HL\_4**|Module names are stated as LO\_1 to LO\_6|Module 1 is named as LO\_1 and so on and so forth|
 
 
-**Low Level Requirements:**
+## **Low Level Requirements:**
 
 
 |**REQ\_ID**|**REQUIREMENTS**|**REQUIREMENT DESCRIPTION**|
@@ -124,9 +123,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 |**LL\_4**|Result in radar chart form|Student should be able to see the overall result in a radar chart format to analyse its overall performance|
 
 
-Planning
-
-
+# **Planning**
 
 
 ![](https://github.com/99003654/App_for_student/blob/main/GANNT%20CHART.PNG)			
@@ -135,71 +132,48 @@ Planning
 
 
 
-**Design and Architecture**
+# **Design and Architecture**
 
-**a. Structural -**
+## **a. Structural -**
 
-**1. High level -**
+## **1. High level -**
 
 ![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_011.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-**2. Low level -**
+## **2. Low level -**
 
 
 ![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_022.png)
 
 
 
+# **2 . Behavioral :-**
+
+## **a. High level :-**
+
+![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_033.png)			
+
+
+## **b. Low Level -**
+
+#### **1. Faculty**
+
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.010.png)**		
 
 
 
 
 
 
+####**2. Student**
+
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.011.png)**			
 
 
 
+#### **3. Class Room**
 
-**2 . Behavioral :-**
-
-**a. High level :-**
-
-![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_033.png)**
-
-**			
-
-
-**b. Low Level -**
-
-**1. Faculty**
-
-![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_044.png)**		
-
-
-
-
-
-
-**2. Student**
-
-![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_055.png)**			
-
-
-
-
-
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.012.png)**				
 
 
 
@@ -211,36 +185,14 @@ Planning
 
 
 
+# **TEST PLAN**
 
-
-
-
-
-
-
-**3. Class Room**
-
-![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_055.png)**				
-
-
-
-
-
-
-
-
-
-
-
-**TEST PLAN**
-
-**TEST PLAN**
 
 ![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/Capture.PNG)
 
 
 
-**	
+	
 
 
 
