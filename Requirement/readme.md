@@ -74,12 +74,7 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 
 **SWOT:**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.005.jpeg)
-
-
-
-
-
+![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/SWOT.jpeg)
 
 
 **4 W's and 1 H-**
@@ -116,7 +111,10 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 |**HL\_2**|Display overall result to the faculty|Faculty should be able to track progress at every step|
 |**HL\_3**|Faculty should see min(), max(), top 5% score, bottom 5% score|Faculty should be able to access data based on the given functions|
 |**HL\_4**|Module names are stated as LO\_1 to LO\_6|Module 1 is named as LO\_1 and so on and so forth|
+
+
 **Low Level Requirements:**
+
 
 |**REQ\_ID**|**REQUIREMENTS**|**REQUIREMENT DESCRIPTION**|
 | :-: | :-: | :-: |
@@ -187,7 +185,7 @@ Planning
 
 **1. Faculty**
 
-![](https://github.com/PS99003709/Student_Performance_Tracker/blob/main/Requirement/diagram_044.png)**		
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.010.png)**		
 
 
 
