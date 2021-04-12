@@ -215,7 +215,7 @@ Planning
 
 
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.006.png)			
+![](https://github.com/99003654/App_for_student/blob/main/GANNT%20CHART.PNG)			
 
 
 
