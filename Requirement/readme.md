@@ -158,30 +158,18 @@ Learning Report – Applied System Development Life Cycle and Software Testing
 
 #### **1. Faculty**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.010.png)**		
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.010.png)		
 
 
+#### **2. Student**
 
-
-
-
-####**2. Student**
-
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.011.png)**			
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.011.png)			
 
 
 
 #### **3. Class Room**
 
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.012.png)**				
-
-
-
-
-
-
-
-
+![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.012.png)				
 
 
 
