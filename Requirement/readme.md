@@ -318,7 +318,7 @@ Planning
 
 **TEST PLAN**
 
-**HIGH LEVEL TEST PLAN**
+**TEST PLAN**
 
 ![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.013.png)
 
