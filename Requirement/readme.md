@@ -328,24 +328,3 @@ Planning
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-**LOW LEVEL TEST PLAN**
-
-![](Aspose.Words.1ffd0313-bca8-4dd9-a843-b136496e40da.014.png)
-
-
-
-|**L&T Technology Services** |**CONFIDENTIAL**|         <br>`     `**Page  PAGE 15 of  NUMPAGES 15**|
-| :- | :- | :- |
-
